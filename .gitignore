@@ -1,0 +1,13 @@
+.env
+
+# Build artifacts
+/auth
+/bin/
+*.exe
+*.test
+*.out
+
+# IDE and operating system files
+.idea/
+.vscode/
+.DS_Store

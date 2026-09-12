@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/klpjunki/auth/internal/config"
-	"github.com/klpjunki/auth/internal/logger"
+	"github.com/klpjunki/auth/pkg/logger"
 )
 
 func main() {

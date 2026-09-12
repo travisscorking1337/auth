@@ -11,13 +11,13 @@ tasks:
   run:
     desc: Run Auth locally
     cmds:
-      - go run ./cmd
+      - go run .
 
   build:
     desc: Build the Auth binary
     cmds:
       - mkdir -p bin
-      - go build -o {{.BINARY}} ./cmd
+      - go build -o {{.BINARY}} .
 
   db:up:
     desc: Start PostgreSQL
